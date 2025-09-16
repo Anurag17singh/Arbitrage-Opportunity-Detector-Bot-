@@ -23,14 +23,14 @@
 
 ## Structure
 
-polygon-arb-bot/
-├── Cargo.toml          # Rust dependencies
-├── Cargo.lock          # Auto-generated dependency lock file
-├── config.json         # Configuration file
-└── src/
-    ├── main.rs         # Entry point, loop controller
-    ├── config.rs       # Loads config.json
-    ├── dex.rs          # DEX client abstraction (UniswapV2 router binding)
-    ├── arbitrage.rs    # Arbitrage detection & profit calculation
-    └── logger.rs       # Logs detected opportunities
+* polygon-arb-bot/
+* ├── Cargo.toml          # Rust dependencies
+* ├── Cargo.lock          # Auto-generated dependency lock file
+* ├── config.json         # Configuration file
+* └── src/
+    * ├── main.rs         # Entry point, loop controller
+    * ├── config.rs       # Loads config.json
+    * ├── dex.rs          # DEX client abstraction (UniswapV2 router binding)
+    * ├── arbitrage.rs    # Arbitrage detection & profit calculation
+    * └── logger.rs       # Logs detected opportunities
 
