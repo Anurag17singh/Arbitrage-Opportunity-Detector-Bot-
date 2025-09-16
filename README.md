@@ -34,3 +34,6 @@
     * ├── arbitrage.rs    # Arbitrage detection & profit calculation
     * └── logger.rs       # Logs detected opportunities
 
+## Note 
+
+* This bot does not execute trades — it only detects opportunities.
