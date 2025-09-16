@@ -1,0 +1,18 @@
+{
+  "rpc_url": "https://polygon-rpc.com",
+  "token_pair": {
+    "base": "WETH",
+    "base_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "base_decimals": 18,
+    "quote": "USDC",
+    "quote_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "quote_decimals": 6,
+    "amount": 0.5
+  },
+  "dexes": {
+    "dex_a": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+    "dex_b": "0x1b02dA8Cb0d097eB8D57A175B88c7D8b47997506"    
+  },
+  "threshold_percent": 0.3,
+  "gas_cost_quote": 1.0
+}
